@@ -12,12 +12,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot/mobile.png)
 ![](./screenshot/desktop.png)
 
 ### Links
 
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://bytepack-frontendmentor-qrcode.pages.dev)
 
 ### Built with
 
@@ -26,5 +25,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/bytepack)
+- Frontend Mentor - [@bytepack](https://www.frontendmentor.io/profile/bytepack)
 
