@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-style: normal;
+    src: url("fonts/Outfit-Regular.woff2") format("woff2"),
+    url("fonts/Outfit-Regular.woff") format("woff"),
+    url("fonts/Outfit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-style: normal;
+    src: url("fonts/Outfit-Bold.woff2") format("woff2"),
+    url("fonts/Outfit-Bold.woff") format("woff"),
+    url("fonts/Outfit-Bold.ttf") format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.page {
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+.qr{
+    background-color: hsl(0, 0%, 100%);
+    width: 80%;
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.qr__photo{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.qr__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.qr__description{
+    font-size: 1.5rem;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
